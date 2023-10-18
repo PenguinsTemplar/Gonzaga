@@ -14,8 +14,15 @@ a {
 
 button {
     display: inline;
+    padding: 7px;
 }
 
 body{
     background-color: antiquewhite;
+}
+
+button{
+    background-color: #0B162A;
+    color: #C83803;
+    border:#C83803 dotted 2px;
 }
