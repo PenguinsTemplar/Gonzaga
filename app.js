@@ -28,7 +28,14 @@ for (i = globali; i < characters.length; ++i) {
     
 // });
 
-
+const characterFacts = {
+    firstName:"Rulia",
+    lastName:"Protagonist",
+    preferedStyle:"Mechanic",
+    favoriteFood:"Poke Bowl",
+    age:"15",
+    quirk:"Views rules and laws as suggestions"
+};
 
 console.log(characters);
 
