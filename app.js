@@ -21,6 +21,14 @@ for (i = globali; i < characters.length; ++i) {
     globali  = globali + 1;
 }});
 
+const button3  = document.getElementById("buildList");
+button3.addEventListener("click", ()=> {
+    globali = globali - 1;
+    characters.pop();
+    
+});
+
+
 
 console.log(characters);
 
