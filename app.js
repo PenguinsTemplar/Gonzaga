@@ -1,5 +1,5 @@
 
-let characters=["Tyler","Tammy"];
+let characters=["Tyler","Tammy","Taofeek","Suma"];
 let charactersList = document.getElementById("charList");
 console.log(characters);
 let globali = 0;
@@ -21,12 +21,12 @@ for (i = globali; i < characters.length; ++i) {
     globali  = globali + 1;
 }});
 
-const button3  = document.getElementById("buildList");
-button3.addEventListener("click", ()=> {
-    globali = globali - 1;
-    characters.pop();
+// const button3  = document.getElementById("buildList");
+// button3.addEventListener("click", ()=> {
+//     globali = globali - 1;
+//     characters.pop();
     
-});
+// });
 
 
 

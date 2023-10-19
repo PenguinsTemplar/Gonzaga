@@ -105,3 +105,19 @@ img {
 .gif {
     display: none;
 }
+
+.mainNav {
+    background-color:#0B162A;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mainNav a {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: 700;
+    color:#C83803;
+    text-decoration: none;
+    border: #C83803 solid 2px;
+    padding: 5px;
+}

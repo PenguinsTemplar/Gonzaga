@@ -1,20 +1,19 @@
-/* I like having a Nav */
-nav{
-    background-color: #0B162A;
-    border: #0B162A solid;
+
+/*I like a Nav and since we just learned some styling */
+.mainNav {
+    background-color:#0B162A;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* and since we just learned some styling */
-a {
+.mainNav a {
     font-family: 'Courier New', Courier, monospace;
     font-size: 1.5em;
+    font-weight: 700;
     color:#C83803;
-    display: inline-block;
-}
-
-button {
-    display: inline;
-    padding: 7px;
+    text-decoration: none;
+    border: #C83803 solid 2px;
+    padding: 5px;
 }
 
 body{
@@ -25,6 +24,8 @@ button{
     background-color: #0B162A;
     color: #C83803;
     border:#C83803 dotted 2px;
+    display: inline;
+    padding: 7px;
 }
 .joustBird {
     height: 500px;
