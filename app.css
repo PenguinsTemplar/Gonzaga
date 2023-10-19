@@ -26,3 +26,7 @@ button{
     color: #C83803;
     border:#C83803 dotted 2px;
 }
+.joustBird {
+    height: 500px;
+    display:none;
+}
