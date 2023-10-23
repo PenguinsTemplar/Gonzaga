@@ -21,24 +21,17 @@ for (i = globali; i < characters.length; ++i) {
     globali  = globali + 1;
 }});
 
-// const button3  = document.getElementById("buildList");
-// button3.addEventListener("click", ()=> {
-//     globali = globali - 1;
-//     characters.pop();
-    
-// });
-
-const characterFacts = {
-    firstName:"Rulia",
-    lastName:"Protagonist",
-    preferedStyle:"Mechanic",
-    favoriteFood:"Poke Bowl",
-    age:"15",
-    quirk:"Views rules and laws as suggestions"
-};
-
-console.log(characters);
 
 
+for (i = 0; i <= 20; i += 2 ) {
+    console.log(i);
+}
+ let j = 1;
+while (j <= 20) {
+    console.log(j);
+    j+=2;
+}
 
-
+for (i = 10; i>=0;i--) {
+    console.log(i);
+}
